@@ -11,7 +11,7 @@
 + [参考的pytorch实现:style-based-gan-pytorch](https://github.com/rosinality/style-based-gan-pytorch)
 
 配置环境：
-1. 需使用 Ubuntu 16.04 及以后版本的操作系统，并且 python 版本 >= 3.
+1. 需使用 Ubuntu 16.04 及以后版本的操作系统，并且 python 版本 >= 3.7
 2. pip install -r requirements.txt即可。若计图的安装遇到问题，也可查阅其官方文档。
 
 使用方式：
