@@ -15,7 +15,8 @@
 2. pip install -r requirements.txt即可。若计图的安装遇到问题，也可查阅其官方文档。
 
 使用方式：
-1. 预训练模型在checkpoint中，输出图像结果和渐进式训练效果视频都在result中。
+1. 输出图像结果和渐进式训练效果视频都在result中，可以直接查看效果。
 2. 可从我的网盘获取实验所用字符数据集：https://cloud.tsinghua.edu.cn/f/c9aa9bc2146e491ea8ba/?dl=1 ，并解压至color_symbol_7k目录下。
-3. 执行 python generate.py checkpoint/080000.model --size=128即可执行前馈测试以及隐向量插值，如需别的效果请自行更改generator.py中的参数
-4. 自行训练则需要修改train.py中的默认路径，再执行python train.py。数据集需先通过progressive_data.py进行处理，也需要改其中的默认路径，将数据存入data文件夹下。
+3. 可从我的网盘获取实验训练了80000代的模型：https://cloud.tsinghua.edu.cn/f/42dfc218f1c5449da106/?dl=1 ， 并放置在checkpoint目录下。
+4. 执行 python generate.py checkpoint/080000.model --size=128即可执行前馈测试以及隐向量插值，如需别的效果请自行更改generator.py中的参数
+5. 自行训练则需要修改train.py中的默认路径，再执行python train.py。数据集需先通过progressive_data.py进行处理，也需要改其中的默认路径，将数据存入data文件夹下。
