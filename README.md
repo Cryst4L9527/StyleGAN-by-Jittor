@@ -3,15 +3,15 @@
 本项目为使用[计图（jittor）](https://github.com/Jittor/jittor) 实现的 StyleGAN，作为对GAN网络的探索和计图框架的学习。
 
 关于计图平台的使用：
-+ [Jittor: a novel deep learning framework with meta-operators and unified graph execution](https://cg.cs.tsinghua.edu.cn/jittor/papers/)
-+ [Jittor 官方文档](https://cg.cs.tsinghua.edu.cn/jittor/)
++ [论文：Jittor: a novel deep learning framework with meta-operators and unified graph execution](https://cg.cs.tsinghua.edu.cn/jittor/papers/)
++ [官方文档](https://cg.cs.tsinghua.edu.cn/jittor/)
 
 关于StyleGAN：
 + [论文:A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948)
 + [参考的pytorch实现:style-based-gan-pytorch](https://github.com/rosinality/style-based-gan-pytorch)
 
 配置环境：
-1. 需使用 Ubuntu 16.04 及以后版本的操作系统，并且 python 版本 >= 3.7
+1. 按照计图的需要，需使用 Ubuntu 16.04 及以后版本的操作系统，并且 python 版本 >= 3.7
 2. pip install -r requirements.txt即可。若计图的安装遇到问题，也可查阅其官方文档。
 
 使用方式：
