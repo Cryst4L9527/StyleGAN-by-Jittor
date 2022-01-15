@@ -7,8 +7,8 @@
 + [Jittor 官方文档](https://cg.cs.tsinghua.edu.cn/jittor/)
 
 关于StyleGAN：
-+ [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948)
-+ [style-based-gan-pytorch](https://github.com/rosinality/style-based-gan-pytorch)
++ [论文:A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948)
++ [参考的pytorch实现:style-based-gan-pytorch](https://github.com/rosinality/style-based-gan-pytorch)
 
 配置环境：
 1. 需使用 Ubuntu 16.04 及以后版本的操作系统，并且 python 版本 >= 3.
